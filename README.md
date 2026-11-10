@@ -1,12 +1,12 @@
-# 🎬 Reel Reviews – Movie Review & Rating System
+#  Movie Review & Rating System
 
-## 📌 Project Overview
+##  Project Overview
 
-**Reel Reviews** is a web-based Movie Review and Rating System developed using Java. It provides a platform where users can explore movies, register as viewers, submit movie reviews, and rate movies based on their experience.
+**Movie Reviews** is a web-based Movie Review and Rating System developed using Java. It provides a platform where users can explore movies, register as viewers, submit movie reviews, and rate movies based on their experience.
 
 The application helps users share their opinions about movies and view average ratings based on community reviews.
 
-## 🎯 Objectives
+##  Objectives
 
 - To develop a simple and user-friendly movie review platform.
 - To allow users to add, update, and delete movie details.
@@ -16,7 +16,7 @@ The application helps users share their opinions about movies and view average r
 - To identify and manage duplicate reviews.
 - To store application data persistently.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -28,7 +28,7 @@ The application helps users share their opinions about movies and view average r
 | Properties File | Data storage |
 | REST API | Communication between frontend and backend |
 
-## ✨ Features
+##  Features
 
 ### 1. Movie Management
 - Add new movies.
@@ -61,7 +61,7 @@ The application helps users share their opinions about movies and view average r
 - Genre-based movie filtering.
 - Success and error notifications.
 
-## ⚙️ Project Architecture
+##  Project Architecture
 
 The project follows a simple client-server architecture.
 
@@ -88,7 +88,7 @@ The project follows a simple client-server architecture.
 6. Application updates the data file.
 7. Updated information is displayed on the dashboard.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Reel-Reviews/
@@ -103,7 +103,7 @@ Reel-Reviews/
 
 **Note:** The database properties file is automatically created when application data is saved.
 
-## 🚀 Installation and Execution
+##  Installation and Execution
 
 ### Prerequisites
 
@@ -145,7 +145,7 @@ http://localhost:8080
 
 The Reel Reviews application will open in your browser.
 
-## 🔗 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -164,7 +164,7 @@ The Reel Reviews application will open in your browser.
 | DELETE | `/api/reviews/{id}` | Delete review |
 | GET | `/api/reviews/duplicates` | Detect duplicate reviews |
 
-## 📊 Rating Calculation
+##  Rating Calculation
 
 The system calculates the average rating of each movie automatically.
 
@@ -174,7 +174,7 @@ Average Rating = Total Ratings / Number of Reviews
 
 Ratings are displayed using a five-star rating system.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - User authentication and login.
 - Movie posters and trailers.
@@ -185,12 +185,12 @@ Ratings are displayed using a five-star rating system.
 - Cloud deployment.
 - Improved security and user access management.
 
-## 👩‍💻 Developed By
+##  Developed By
 
-**Reel Reviews – Movie Review & Rating System**
+** Movie Review & Rating System**
 
 Developed as a Java-based web application project.
 
-## 📄 License
+##  License
 
 This project is developed for educational and learning purposes.
